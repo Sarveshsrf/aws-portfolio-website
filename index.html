@@ -2,32 +2,188 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My AWS Portfolio</title>
+    <title>Sarvesh Saraf | Full Stack & DevOps Enthusiast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sarvesh Saraf - Full Stack Developer and Aspiring DevOps Engineer.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>👋 Hi, I'm Sarvesh</h1>
-        <p>Aspiring Cloud & Software Engineer</p>
-        <nav>
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="profile-block">
+                <img src="sarvesh.jpg" alt="Photo of Sarvesh Saraf" class="profile-photo">
+            </div>
+            <div class="intro-block">
+                <h1 class="name">Sarvesh Saraf</h1>
+                <p class="role">Full Stack Developer | Aspiring DevOps Engineer</p>
+                <p class="summary">
+                    Passionate about building scalable web applications, automating deployments, and working with
+                    modern cloud and DevOps tools. Experience with Python, JavaScript, SQL, IoT and ML projects,
+                    while actively learning Docker, CI/CD and AWS to grow into DevOps-focused roles.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="btn-primary">Email</a>
+                    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" class="btn-secondary">LinkedIn</a>
+                    <a href="https://github.com/your-github" target="_blank" class="btn-secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>My Projects</h2>
-            <ul>
-                <li>AWS Static Hosting (S3 + CloudFront)</li>
-                <li>Flask Web App on EC2</li>
-                <li>Serverless Image Processor with Lambda</li>
-            </ul>
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Programming & Web</h3>
+                        <ul>
+                            <li>Java, Python, SQL, JavaScript</li>
+                            <li>HTML, CSS</li>
+                            <li>Node.js, Express (for projects)</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Frameworks & Tools</h3>
+                        <ul>
+                            <li>TensorFlow, OpenCV</li>
+                            <li>MySQL, SQLite, MongoDB</li>
+                            <li>Git, GitHub</li>
+                            <li>AWS (Beginner), Docker (Learning)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section section-alt" id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="card">
+                    <h3>Nutshell Infosoft Pvt Ltd – IoT Developer Intern</h3>
+                    <p class="meta">Oct 2023 – Jan 2024 · Nashik, India</p>
+                    <ul>
+                        <li>
+                            Developed a real-time bottle collection monitoring system using image recognition with
+                            TensorFlow, OpenCV and IoT sensors to improve detection accuracy and operational efficiency.
+                        </li>
+                        <li>
+                            Collaborated with cross-functional teams to build and deliver a working prototype within
+                            strict deadlines.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <div class="card">
+                    <h3>Bio-Tongue – Tongue Biometric System</h3>
+                    <p class="meta">Python, TensorFlow, YOLOv8, OpenCV, SVM, CNN, Raspberry Pi</p>
+                    <ul>
+                        <li>
+                            Built a tongue-based biometric authentication system with real-time image processing and
+                            feature matching on Raspberry Pi in a resource-constrained environment.
+                        </li>
+                        <li>
+                            Implemented dual-factor authentication by combining PIN entry with tongue biometrics for
+                            enhanced security.
+                        </li>
+                    </ul>
+                    <a href="https://github.com/your-github/bio-tongue" target="_blank" class="link-inline">View on GitHub</a>
+                </div>
+
+                <div class="card">
+                    <h3>QR-Based Plant Information & Monitoring System</h3>
+                    <p class="meta">WordPress, ESP8266, ThingSpeak, Blynk, IoT Sensors</p>
+                    <ul>
+                        <li>
+                            Designed a smart plant monitoring system where users scan QR codes to access plant details
+                            and real-time environmental data.
+                        </li>
+                        <li>
+                            Integrated ESP8266 with soil moisture and temperature–humidity sensors to stream live data
+                            to ThingSpeak and Blynk dashboards.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Expense Tracker Web App</h3>
+                    <p class="meta">JavaScript, Node.js, Express, MongoDB</p>
+                    <ul>
+                        <li>
+                            Built a full-stack expense management system with CRUD operations, filters, charts and CSV
+                            export for financial tracking.
+                        </li>
+                        <li>
+                            Designed REST APIs and implemented a responsive UI for a better user experience.
+                        </li>
+                    </ul>
+                    <a href="https://github.com/your-github/expense-tracker" target="_blank" class="link-inline">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Achievements -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <h2>Education & Achievements</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                B.E. Electronics & Communication Engineering – Sandip Institute of Technology & Research Centre, Nashik
+                                (CGPA: 8.0)
+                            </li>
+                            <li>
+                                HSC – Laxminarayan International Junior College, Khamgaon (95.15%)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Highlights</h3>
+                        <ul>
+                            <li>Published research paper “BioTongue: A Tongue-Based Biometric Authentication System”.</li>
+                            <li>Cultural Secretary (2023–24) – led events and technical fests.</li>
+                            <li>Conducted IoT seminars/workshops and mentored juniors.</li>
+                            <li>Built Maker Space component inventory management web app for the department.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="section" id="contact">
+            <div class="container text-center">
+                <h2>Let’s Connect</h2>
+                <p>
+                    Open to roles in Full Stack Development, DevOps and Cloud Engineering.  
+                    Feel free to reach out for opportunities, collaborations or tech discussions.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="btn-primary">Email Me</a>
+                    <a href="contact.html" class="btn-secondary">View Contact Details</a>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>© 2025 Sarvesh Saraf | Hosted on AWS</p>
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2025 Sarvesh Saraf. Hosted on AWS S3 & CloudFront.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
