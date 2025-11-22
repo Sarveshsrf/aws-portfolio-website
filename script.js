@@ -1,1 +1,1 @@
-console.log("AWS Portfolio Website Loaded Successfully!");
+console.log("Portfolio loaded – hosted on AWS S3 + CloudFront.");
